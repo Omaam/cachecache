@@ -13,6 +13,7 @@ def myfunction():
     return ret
 ```
 
-This will make `.cache` folder and create binary object in this.
-The wrapper uses source code, arguments, and keyword arguments as hash.
-Thus, when you change them, hash also changes and new cache file is saved.
+This will make the .cache folder and create a binary object in this.
+The wrapper uses source code, arguments, and keyword arguments as a hash.
+Thus, when you change them, the hash also changes, and a new cache file
+is saved.
