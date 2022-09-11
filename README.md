@@ -15,4 +15,4 @@ def myfunction():
 
 This will make `.cache` folder and create binary object in this.
 The wrapper uses source code, arguments, and keyword arguments as hash.
-Thus, when you change them, hash also changes and do function.
+Thus, when you change them, hash also changes and new cache file is saved.
